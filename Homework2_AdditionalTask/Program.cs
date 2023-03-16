@@ -2,12 +2,12 @@
 //finding second maximum
 Console.Clear();
 
-string input = Console.ReadLine();
-string[] numbers = null;
+string input = Console.ReadLine()!;
+string[] numbers = null!;
 
 if (input != null)
 {
-    numbers = input?.Split(' ');
+    numbers = input?.Split(' ')!;
 }
 
 int max1 = 0, max2 = 0;
